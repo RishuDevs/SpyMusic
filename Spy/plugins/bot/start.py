@@ -6,11 +6,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from SONALI import app
-from SONALI.plugins.sudo.sudoers import sudoers_list
-from SONALI.utils.database import get_served_chats, get_served_users, get_sudoers
-from SONALI.utils import bot_sys_stats
-from SONALI.utils.database import (
+from Spy import app
+from Spy.plugins.sudo.sudoers import sudoers_list
+from Spy.utils.database import get_served_chats, get_served_users, get_sudoers
+from Spy.utils import bot_sys_stats
+from Spy.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -18,9 +18,9 @@ from SONALI.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from SONALI.utils.decorators.language import LanguageStart
-from SONALI.utils.formatters import get_readable_time
-from SONALI.utils.inline import help_pannel, private_panel, start_panel
+from Spy.utils.decorators.language import LanguageStart
+from Spy.utils.formatters import get_readable_time
+from Spy.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
